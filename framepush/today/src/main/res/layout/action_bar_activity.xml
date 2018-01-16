@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.liy.today.views.action.KitKatStatusBarPlaceholder
+        android:id="@+id/statusBarPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+
+    <com.liy.today.views.action.ActionTitleBar
+        android:id="@+id/title_bar_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_title_bar_height"
+        android:layout_below="@id/statusBarPlaceholder"
+        android:background="@android:color/white"
+        android:inAnimation="@anim/fade_in_short"
+
+        android:outAnimation="@anim/fade_out_short">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/action_title_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/left_menus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+
+
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/title_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="4dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxEms="10"
+                    android:maxLength="24"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="8dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/title_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <LinearLayout
+                    android:id="@+id/right_menus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_title_bar"
+                android:background="@color/topbar_append_bg">
+
+                <LinearLayout
+                    android:id="@+id/title_bar_append_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+                <!--有AppendView的时候显示一条分割线:-->
+                <View
+                    style="@style/divHorizontal"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-1px" />
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/custom_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.liy.today.views.action.ActionTitleBar>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar_switcher"
+        android:layout_marginTop="-9dp"
+        android:indeterminate="false"
+        android:max="10000"
+        android:progress="0"
+        android:progressDrawable="@drawable/app_progress_horizontal" />
+
+    <FrameLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar_switcher" />
+
+
+</RelativeLayout>

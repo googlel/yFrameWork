@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/loadviewLinear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_loading_bg"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/common_loading_progressbar"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/arrowbg"
+            android:indeterminateDrawable="@drawable/loading_small"
+            android:indeterminateDuration="500"/>
+
+        <TextView
+            android:id="@+id/common_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="10dp"
+            android:text="伊仔努力加载中..."
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

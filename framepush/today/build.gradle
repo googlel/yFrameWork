@@ -1,0 +1,101 @@
+apply plugin: 'com.android.library'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.googlel'
+
+
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        multiDexEnabled true
+        buildConfigField("String", "SCHEME", "\"lyf\"")
+
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 12
+        versionName "0.1.6.6"
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+
+    packagingOptions {
+        exclude 'NOTICE'
+        exclude 'LICENSE'
+        exclude 'LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.facebook.stetho:stetho:1.3.1'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.3.1'
+
+    compile 'com.facebook.fresco:fresco:1.5.0'
+    compile 'com.facebook.fresco:imagepipeline-okhttp3:0.12.0+'
+    compile 'com.facebook.fresco:animated-gif:1.5.0'
+
+
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:palette-v7:25.2.0'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.jakewharton:butterknife:7.0.1'
+//    compile 'com.squareup.okhttp:okhttp:2.6.0'
+    compile 'io.reactivex:rxjava:1.0.11'
+    compile 'io.reactivex:rxandroid:0.24.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.trello:rxlifecycle:0.3.0'
+    compile 'com.trello:rxlifecycle-components:0.3.0'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.android.support:support-annotations:23.1.0'
+    //    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+
+    //    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+
+    //    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+//    compile files('libs/commons-compress-1.10.jar')
+//    compile files('libs/commons-codec-1.10.jar')
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+
+    compile 'com.android.support:palette-v7:25.2.0'
+
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.3@aar'
+    compile 'com.github.campusappcn.AndRouter:router:1.2.4'
+//    compile files('libs/ttbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025.jar')
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    compile 'com.baoyz.swipemenulistview:library:1.3.0'
+    compile 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.5'
+
+
+
+
+
+}
+
+

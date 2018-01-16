@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义风格 -->
+    <declare-styleable name="dialog">
+        <!-- 对话框 Style -->
+        <attr name="dialogStyle" format="reference"/>
+
+        <!-- ActionBar 各项属性 -->
+        <!-- ActionBar 标题字体大小 -->
+        <attr name="actionBarTitleTextSize" format="reference|dimension"/>
+        <!-- ActionBar 标题字体颜色 -->
+        <attr name="actionBarTitleTextColor" format="reference|color"/>
+        <!-- ActionBar 背景 -->
+        <attr name="actionBarBackground" format="reference"/>
+
+        <!-- 弹出菜单背景 -->
+        <attr name="popupMenuBackground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <!--  比例相对布局的属性 -->
+    <declare-styleable name="ScreenRatioRelativeLayout">
+        <attr name="orientation">
+            <enum name="fixWidth" value="0" />
+            <enum name="fixHeight" value="1" />
+            <enum name="auto" value="2" />
+        </attr>
+        <attr name="ratio" format="float" />
+        <attr name="relativeWidth" format="float" />
+        <attr name="relativeHeight" format="float" />
+    </declare-styleable>
+
+
+
+</resources>

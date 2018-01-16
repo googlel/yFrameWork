@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/foot_aaaa" android:duration="150"/>
+    <item android:drawable="@drawable/foot_aaab" android:duration="150"/>
+    <item android:drawable="@drawable/foot_aaac" android:duration="150"/>
+    <item android:drawable="@drawable/foot_aaad" android:duration="150"/>
+    <item android:drawable="@drawable/foot_aaae" android:duration="150"/>
+</animation-list>

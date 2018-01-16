@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_bg">#f3f3f3</color>
+
+    <color name="gray_div">#dddddd</color>
+    <color name="alpha_white">#22ffffff</color>
+    <color name="alpha_black">#22000000</color>
+    <color name="topbar_bg">#242930</color>
+    <color name="topbar_append_bg">#e9ffffff</color>
+    <color name="app_color">#ff8400</color>
+
+</resources>

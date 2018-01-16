@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lyfFramework</string>
+    <string name="loading">正在加载…</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="complete">刷新完成</string>
+
+    <string name="update_app_model_prepare">准备下载</string>
+    <string name="update_app_model_progress">下载中 %1$d%2$s</string>
+    <string name="update_app_model_success">下载成功(点击安装)</string>
+    <string name="update_app_model_error">下载失败(点击可打开浏览器下载)</string>
+</resources>
