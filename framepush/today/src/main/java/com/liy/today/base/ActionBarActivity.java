@@ -49,7 +49,7 @@ public class ActionBarActivity extends BaseActivity {
         mProgressBar = (ProgressBar) mRootView.findViewById(R.id.progress_bar);
         snowingView = (SnowingView) mRootView.findViewById(R.id.snowing_view);
         mKitKatStatusBarPlaceholder = (KitKatStatusBarPlaceholder) mRootView.findViewById(R.id.statusBarPlaceholder);
-        snowingView.startFall();
+
 
         mTitleBar.setTitle(getTitle());
         addDefaultReturnAction();
