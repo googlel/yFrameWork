@@ -8,8 +8,11 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
 /**
- * 作者：请叫我百米冲刺 on 2016/12/21 下午12:45
- * 邮箱：mail@hezhilin.cc
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 
 public class StaggeredGridEntrust extends SpacesItemDecorationEntrust {

@@ -8,7 +8,11 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
 /**
- * Created by Au61 on 2016/1/15.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
 

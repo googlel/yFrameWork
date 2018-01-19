@@ -15,7 +15,13 @@ import android.widget.ViewSwitcher;
 import com.laiyifen.lyfframework.R;
 
 
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 public class ActionTitleBar extends ViewSwitcher {
 
     private static final int VIEW_SWITCHER_ID_TITLE = 0;

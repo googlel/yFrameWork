@@ -6,7 +6,13 @@ import android.widget.RelativeLayout;
 
 import com.laiyifen.lyfframework.R;
 import com.liy.today.base.BaseApplication;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 
 public class MoreHolder extends BaseHolder<Integer> implements OnClickListener {
     public static final int HAS_MORE = 0;

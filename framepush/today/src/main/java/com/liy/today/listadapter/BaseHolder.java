@@ -2,7 +2,13 @@ package com.liy.today.listadapter;
 
 import android.content.Context;
 import android.view.View;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 public abstract class
 BaseHolder<Data> {
     protected View mRootView;

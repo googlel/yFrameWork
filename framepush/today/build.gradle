@@ -91,6 +91,8 @@ dependencies {
     compile 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
 
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.5'
+    compile 'com.github.googlel:ySnow:1.0'
+
 
 
 

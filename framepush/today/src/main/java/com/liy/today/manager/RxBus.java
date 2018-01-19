@@ -5,9 +5,12 @@ import rx.subjects.SerializedSubject;
 import rx.subjects.Subject;
 import rx.Observable;
 
-
 /**
- * Created by qj on 2017/5/24.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 
 public class RxBus {

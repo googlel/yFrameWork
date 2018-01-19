@@ -1,8 +1,11 @@
 package com.liy.today.permission;
 
 /**
- * com.laiyifen.app.modules
- * Created by qiujie on 16/6/22.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public interface PermissionListener {
 

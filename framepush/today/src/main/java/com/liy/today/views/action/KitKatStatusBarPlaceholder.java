@@ -10,7 +10,13 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.WindowManager;
 
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 @TargetApi(Build.VERSION_CODES.KITKAT)
 public class KitKatStatusBarPlaceholder extends View {
 

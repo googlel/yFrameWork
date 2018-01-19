@@ -4,11 +4,11 @@ package com.liy.today.cache;
 import com.liy.today.utils.LogUtils;
 
 /**
- * The Creator is Leone90 && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone90
- * @date 15/12/14
- * Edit it! Change it! Beat it! Whatever!
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class VolleyLog {
     private static final String Tag = VolleyLog.class.getSimpleName();

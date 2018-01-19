@@ -10,8 +10,11 @@ import com.facebook.imagepipeline.core.ImagePipeline;
 import java.io.File;
 
 /**
- * 作者：qiujie on 16/5/20
- * 邮箱：qiujie@laiyifen.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class BaseApplication extends MultiDexApplication {
 

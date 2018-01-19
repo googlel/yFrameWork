@@ -11,11 +11,11 @@ import com.liy.today.utils.ViewUtils;
 
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
+ * @author qiujie
  * @date 15/10/25
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ *
  */
 public class TextAction extends Action<TextView> {
 

@@ -35,8 +35,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Cache implementation that caches files directly onto the hard disk in the specified
- * directory. The default disk usage size is 5MB, but is configurable.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class DiskBasedCache implements Cache {
 

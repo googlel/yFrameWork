@@ -12,8 +12,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * 作者：qiujie on 16/4/17
- * 邮箱：qiujie@laiyifen.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class RecyclerHeaderViewHolder extends RecyclerView.ViewHolder {
 

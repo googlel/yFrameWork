@@ -8,7 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by pzy on 2016/6/1 0001.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class FullyLinearLayoutManager extends LinearLayoutManager {
     private static final String TAG = FullyLinearLayoutManager.class.getSimpleName();

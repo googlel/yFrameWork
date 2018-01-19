@@ -3,11 +3,11 @@ package com.liy.today.statistic;
 import java.io.Serializable;
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
- * @date 15/11/26
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class UBTActionEevnt implements Serializable {
 

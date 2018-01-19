@@ -20,11 +20,11 @@ import de.greenrobot.event.EventBus;
 
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
- * @date 15/12/3
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 
 public class EventRecorder {

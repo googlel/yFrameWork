@@ -19,7 +19,13 @@ import rx.Observer;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 public abstract class DefaultAdapter<Data> extends BaseAdapter implements OnItemClickListener {
     public static final int MORE_VIEW_TYPE = 0;
     public static final int ITEM_VIEW_TYPE = 1;

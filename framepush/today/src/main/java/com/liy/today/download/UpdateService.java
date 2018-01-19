@@ -32,7 +32,13 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 public class UpdateService extends Service {
     public static final String TAG = "UpdateService";
     public static final String ACTION = "UPDATE_APP";

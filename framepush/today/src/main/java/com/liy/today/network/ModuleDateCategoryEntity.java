@@ -3,9 +3,12 @@ package com.liy.today.network;
 import java.util.List;
 
 /**
- * Created by qj on 2017/5/4.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
-
 public class ModuleDateCategoryEntity {
 
 

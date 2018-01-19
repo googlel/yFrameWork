@@ -7,7 +7,13 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import com.laiyifen.lyfframework.R;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 public class GifStepView extends View {
 
 	private Bitmap endBitmap;

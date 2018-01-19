@@ -7,8 +7,11 @@ import android.support.v4.app.Fragment;
 import java.util.List;
 
 /**
- * com.laiyifen.app.modules
- * Created by qiujie on 16/6/22.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public final class PermissionsDispatcher {
 

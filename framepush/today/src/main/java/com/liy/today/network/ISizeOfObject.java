@@ -1,12 +1,11 @@
 package com.liy.today.network;
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
- * @date 15/12/3
- * @description Edit it! Change it! Beat it! Whatever, just do it!
- * 获取一个对象所占内存大小
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 interface ISizeOfObject {
     /**

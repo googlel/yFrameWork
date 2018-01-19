@@ -5,7 +5,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by lxs on 2016/8/11.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class DecorationSpace extends RecyclerView.ItemDecoration {
 

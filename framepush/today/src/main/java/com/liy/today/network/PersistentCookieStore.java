@@ -27,8 +27,11 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 作者：qiujie on 16/8/3
- * 邮箱：qiujie@laiyifen.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 @TargetApi(Build.VERSION_CODES.GINGERBREAD)
 public class PersistentCookieStore implements CookieStore {

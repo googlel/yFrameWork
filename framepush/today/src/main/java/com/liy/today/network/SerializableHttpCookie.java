@@ -9,8 +9,11 @@ import java.io.Serializable;
 import java.net.HttpCookie;
 
 /**
- * 作者：qiujie on 16/8/3
- * 邮箱：qiujie@laiyifen.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class SerializableHttpCookie implements Serializable {
     private static final long serialVersionUID = 1L;

@@ -16,11 +16,11 @@ import java.util.LinkedHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
- * @date 15/12/3
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public final class ObjectCache {
     private static final float MIN_MEM_CACHE_PERCENT = 0.05f;

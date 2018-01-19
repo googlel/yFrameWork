@@ -7,7 +7,11 @@ import android.content.Context;
 import java.util.Stack;
 
 /**
- * 应用程序Activity管理类：用于Activity管理和应用程序退出
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class AppManager {
 

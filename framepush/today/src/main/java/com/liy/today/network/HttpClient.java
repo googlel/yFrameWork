@@ -28,13 +28,10 @@ import okhttp3.Response;
 import okio.ByteString;
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- *  工作场景  测试
- *
- * @author Leone
- * @date 15/11/18
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ * @author qiujie
+ * @date 15/10/25
  *
  */
 public class HttpClient implements Interceptor {

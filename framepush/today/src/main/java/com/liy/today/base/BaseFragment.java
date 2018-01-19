@@ -6,7 +6,13 @@ import android.util.Log;
 
 import com.trello.rxlifecycle.components.support.RxFragment;
 import com.umeng.analytics.MobclickAgent;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 
 public class BaseFragment extends RxFragment {
     public String TAG = "";

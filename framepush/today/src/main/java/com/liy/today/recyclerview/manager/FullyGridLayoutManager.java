@@ -7,7 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by pzy on 2016/6/2 0002.
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
  */
 public class FullyGridLayoutManager extends GridLayoutManager {
     private int mwidth = 0;

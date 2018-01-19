@@ -19,14 +19,15 @@ import com.liy.today.views.action.ActionTitleBar;
 import com.liy.today.views.action.ImageAction;
 import com.liy.today.views.action.KitKatStatusBarPlaceholder;
 import com.liy.today.views.action.TextAction;
+import com.liy.today.ysonw.snowingview.widgets.SnowingView;
 import com.umeng.analytics.MobclickAgent;
 
 /**
- * The creator is Leone && E-mail: butleone@163.com
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
  *
- * @author Leone
+ * @author qiujie
  * @date 15/10/25
- * @description Edit it! Change it! Beat it! Whatever, just do it!
+ *
  */
 public class ActionBarActivity extends BaseActivity {
 
@@ -35,6 +36,7 @@ public class ActionBarActivity extends BaseActivity {
     public ActionTitleBar mTitleBar;
     private ProgressBar mProgressBar;
     public TextAction mReturnAction;
+    public SnowingView snowingView;
     public String TAG;
     public KitKatStatusBarPlaceholder mKitKatStatusBarPlaceholder;
 
@@ -45,7 +47,9 @@ public class ActionBarActivity extends BaseActivity {
         mContentView = (FrameLayout) mRootView.findViewById(R.id.content_view);
         mTitleBar = (ActionTitleBar) mRootView.findViewById(R.id.title_bar_switcher);
         mProgressBar = (ProgressBar) mRootView.findViewById(R.id.progress_bar);
+        snowingView = (SnowingView) mRootView.findViewById(R.id.snowing_view);
         mKitKatStatusBarPlaceholder = (KitKatStatusBarPlaceholder) mRootView.findViewById(R.id.statusBarPlaceholder);
+        snowingView.startFall();
 
         mTitleBar.setTitle(getTitle());
         addDefaultReturnAction();

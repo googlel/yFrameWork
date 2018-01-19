@@ -24,7 +24,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 import butterknife.ButterKnife;
-
+/**
+ * The creator is qiujie && E-mail: mailtoqiu@163.com
+ *
+ * @author qiujie
+ * @date 15/10/25
+ *
+ */
 
 public class BaseActivity extends RxAppCompatActivity implements SlidingPaneLayout.PanelSlideListener {
 
